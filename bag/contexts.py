@@ -26,7 +26,7 @@ def bag_contents(request):
         free_delivery_delta = settings.FREE_DELIVERY_THRESHOLD - total
     else:
         delivery = 0
-        free_delivery_delta = 0
+        free_delivery_delta = 0 
     
     grand_total = delivery + total
     
